@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39708C831BDA5744007CAC2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39708C821BDA5744007CAC2F /* Assets.xcassets */; };
+		3983B3DB1BD8ABAC00A03843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983B3DA1BD8ABAC00A03843 /* AppDelegate.swift */; };
+		3983B3DE1BD8ABAC00A03843 /* MeetisanApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3983B3DC1BD8ABAC00A03843 /* MeetisanApp.xcdatamodeld */; };
+		3983B3E01BD8ABAC00A03843 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983B3DF1BD8ABAC00A03843 /* MasterViewController.swift */; };
+		3983B3E21BD8ABAC00A03843 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983B3E11BD8ABAC00A03843 /* DetailViewController.swift */; };
+		3983B3E51BD8ABAC00A03843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3983B3E31BD8ABAC00A03843 /* Main.storyboard */; };
+		3983B3EA1BD8ABAC00A03843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3983B3E81BD8ABAC00A03843 /* LaunchScreen.storyboard */; };
+		3983B3F51BD8ABAC00A03843 /* MeetisanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983B3F41BD8ABAC00A03843 /* MeetisanAppTests.swift */; };
+		3983B4001BD8ABAC00A03843 /* MeetisanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983B3FF1BD8ABAC00A03843 /* MeetisanAppUITests.swift */; };
+		3983B4101BD8B07700A03843 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B40E1BD8B07700A03843 /* Bolts.framework */; };
+		3983B4111BD8B07700A03843 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B40F1BD8B07700A03843 /* Parse.framework */; };
+		3983B4131BD8B0CB00A03843 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4121BD8B0CB00A03843 /* AudioToolbox.framework */; };
+		3983B4151BD8B0D200A03843 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4141BD8B0D200A03843 /* CFNetwork.framework */; };
+		3983B4171BD8B0DB00A03843 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4161BD8B0DB00A03843 /* CoreGraphics.framework */; };
+		3983B4191BD8B0E800A03843 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4181BD8B0E800A03843 /* CoreLocation.framework */; };
+		3983B41B1BD8B0F000A03843 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B41A1BD8B0F000A03843 /* QuartzCore.framework */; };
+		3983B41D1BD8B0F700A03843 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B41C1BD8B0F700A03843 /* Security.framework */; };
+		3983B41F1BD8B10000A03843 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B41E1BD8B10000A03843 /* StoreKit.framework */; };
+		3983B4211BD8B10800A03843 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4201BD8B10800A03843 /* SystemConfiguration.framework */; };
+		3983B4231BD8B11100A03843 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4221BD8B11100A03843 /* libz.tbd */; };
+		3983B4251BD8B11A00A03843 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4241BD8B11A00A03843 /* libsqlite3.tbd */; };
+		3983B4271BD8B13300A03843 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4261BD8B13300A03843 /* Accounts.framework */; };
+		3983B4291BD8B13A00A03843 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983B4281BD8B13A00A03843 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3983B3F11BD8ABAC00A03843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3983B3CF1BD8ABAB00A03843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3983B3D61BD8ABAB00A03843;
+			remoteInfo = MeetisanApp;
+		};
+		3983B3FC1BD8ABAC00A03843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3983B3CF1BD8ABAB00A03843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3983B3D61BD8ABAB00A03843;
+			remoteInfo = MeetisanApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39708C821BDA5744007CAC2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3983B3D71BD8ABAB00A03843 /* MeetisanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetisanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983B3DA1BD8ABAC00A03843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3983B3DD1BD8ABAC00A03843 /* MeetisanApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetisanApp.xcdatamodel; sourceTree = "<group>"; };
+		3983B3DF1BD8ABAC00A03843 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3983B3E11BD8ABAC00A03843 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3983B3E41BD8ABAC00A03843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3983B3E91BD8ABAC00A03843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3983B3EB1BD8ABAC00A03843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3983B3F01BD8ABAC00A03843 /* MeetisanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetisanAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983B3F41BD8ABAC00A03843 /* MeetisanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetisanAppTests.swift; sourceTree = "<group>"; };
+		3983B3F61BD8ABAC00A03843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3983B3FB1BD8ABAC00A03843 /* MeetisanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetisanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983B3FF1BD8ABAC00A03843 /* MeetisanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetisanAppUITests.swift; sourceTree = "<group>"; };
+		3983B4011BD8ABAC00A03843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3983B40E1BD8B07700A03843 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3983B40F1BD8B07700A03843 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3983B4121BD8B0CB00A03843 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3983B4141BD8B0D200A03843 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3983B4161BD8B0DB00A03843 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3983B4181BD8B0E800A03843 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3983B41A1BD8B0F000A03843 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3983B41C1BD8B0F700A03843 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3983B41E1BD8B10000A03843 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3983B4201BD8B10800A03843 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3983B4221BD8B11100A03843 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3983B4241BD8B11A00A03843 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3983B4261BD8B13300A03843 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3983B4281BD8B13A00A03843 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3983B3D41BD8ABAB00A03843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983B4271BD8B13300A03843 /* Accounts.framework in Frameworks */,
+				3983B4131BD8B0CB00A03843 /* AudioToolbox.framework in Frameworks */,
+				3983B4101BD8B07700A03843 /* Bolts.framework in Frameworks */,
+				3983B4191BD8B0E800A03843 /* CoreLocation.framework in Frameworks */,
+				3983B4171BD8B0DB00A03843 /* CoreGraphics.framework in Frameworks */,
+				3983B4151BD8B0D200A03843 /* CFNetwork.framework in Frameworks */,
+				3983B4111BD8B07700A03843 /* Parse.framework in Frameworks */,
+				3983B4291BD8B13A00A03843 /* Social.framework in Frameworks */,
+				3983B4251BD8B11A00A03843 /* libsqlite3.tbd in Frameworks */,
+				3983B4231BD8B11100A03843 /* libz.tbd in Frameworks */,
+				3983B4211BD8B10800A03843 /* SystemConfiguration.framework in Frameworks */,
+				3983B41F1BD8B10000A03843 /* StoreKit.framework in Frameworks */,
+				3983B41D1BD8B0F700A03843 /* Security.framework in Frameworks */,
+				3983B41B1BD8B0F000A03843 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983B3ED1BD8ABAC00A03843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983B3F81BD8ABAC00A03843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394675911BD8BB1B00EA73C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		394675921BD8BB2800EA73C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3983B3CE1BD8ABAB00A03843 = {
+			isa = PBXGroup;
+			children = (
+				3983B40D1BD8B05300A03843 /* Frameworks */,
+				3983B3D91BD8ABAB00A03843 /* MeetisanApp */,
+				3983B3F31BD8ABAC00A03843 /* MeetisanAppTests */,
+				3983B3FE1BD8ABAC00A03843 /* MeetisanAppUITests */,
+				3983B3D81BD8ABAB00A03843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3983B3D81BD8ABAB00A03843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3983B3D71BD8ABAB00A03843 /* MeetisanApp.app */,
+				3983B3F01BD8ABAC00A03843 /* MeetisanAppTests.xctest */,
+				3983B3FB1BD8ABAC00A03843 /* MeetisanAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3983B3D91BD8ABAB00A03843 /* MeetisanApp */ = {
+			isa = PBXGroup;
+			children = (
+				3983B3DA1BD8ABAC00A03843 /* AppDelegate.swift */,
+				3983B3DF1BD8ABAC00A03843 /* MasterViewController.swift */,
+				3983B3E11BD8ABAC00A03843 /* DetailViewController.swift */,
+				394675921BD8BB2800EA73C7 /* Views */,
+				394675911BD8BB1B00EA73C7 /* Models */,
+				3983B3E31BD8ABAC00A03843 /* Main.storyboard */,
+				3983B3E81BD8ABAC00A03843 /* LaunchScreen.storyboard */,
+				39708C821BDA5744007CAC2F /* Assets.xcassets */,
+				3983B3EB1BD8ABAC00A03843 /* Info.plist */,
+				3983B3DC1BD8ABAC00A03843 /* MeetisanApp.xcdatamodeld */,
+			);
+			path = MeetisanApp;
+			sourceTree = "<group>";
+		};
+		3983B3F31BD8ABAC00A03843 /* MeetisanAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3983B3F41BD8ABAC00A03843 /* MeetisanAppTests.swift */,
+				3983B3F61BD8ABAC00A03843 /* Info.plist */,
+			);
+			path = MeetisanAppTests;
+			sourceTree = "<group>";
+		};
+		3983B3FE1BD8ABAC00A03843 /* MeetisanAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3983B3FF1BD8ABAC00A03843 /* MeetisanAppUITests.swift */,
+				3983B4011BD8ABAC00A03843 /* Info.plist */,
+			);
+			path = MeetisanAppUITests;
+			sourceTree = "<group>";
+		};
+		3983B40D1BD8B05300A03843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3983B4281BD8B13A00A03843 /* Social.framework */,
+				3983B4261BD8B13300A03843 /* Accounts.framework */,
+				3983B4241BD8B11A00A03843 /* libsqlite3.tbd */,
+				3983B4221BD8B11100A03843 /* libz.tbd */,
+				3983B4201BD8B10800A03843 /* SystemConfiguration.framework */,
+				3983B41E1BD8B10000A03843 /* StoreKit.framework */,
+				3983B41C1BD8B0F700A03843 /* Security.framework */,
+				3983B41A1BD8B0F000A03843 /* QuartzCore.framework */,
+				3983B4181BD8B0E800A03843 /* CoreLocation.framework */,
+				3983B4161BD8B0DB00A03843 /* CoreGraphics.framework */,
+				3983B4141BD8B0D200A03843 /* CFNetwork.framework */,
+				3983B4121BD8B0CB00A03843 /* AudioToolbox.framework */,
+				3983B40E1BD8B07700A03843 /* Bolts.framework */,
+				3983B40F1BD8B07700A03843 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3983B3D61BD8ABAB00A03843 /* MeetisanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3983B4041BD8ABAC00A03843 /* Build configuration list for PBXNativeTarget "MeetisanApp" */;
+			buildPhases = (
+				3983B3D31BD8ABAB00A03843 /* Sources */,
+				3983B3D41BD8ABAB00A03843 /* Frameworks */,
+				3983B3D51BD8ABAB00A03843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetisanApp;
+			productName = MeetisanApp;
+			productReference = 3983B3D71BD8ABAB00A03843 /* MeetisanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3983B3EF1BD8ABAC00A03843 /* MeetisanAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3983B4071BD8ABAC00A03843 /* Build configuration list for PBXNativeTarget "MeetisanAppTests" */;
+			buildPhases = (
+				3983B3EC1BD8ABAC00A03843 /* Sources */,
+				3983B3ED1BD8ABAC00A03843 /* Frameworks */,
+				3983B3EE1BD8ABAC00A03843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3983B3F21BD8ABAC00A03843 /* PBXTargetDependency */,
+			);
+			name = MeetisanAppTests;
+			productName = MeetisanAppTests;
+			productReference = 3983B3F01BD8ABAC00A03843 /* MeetisanAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3983B3FA1BD8ABAC00A03843 /* MeetisanAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3983B40A1BD8ABAC00A03843 /* Build configuration list for PBXNativeTarget "MeetisanAppUITests" */;
+			buildPhases = (
+				3983B3F71BD8ABAC00A03843 /* Sources */,
+				3983B3F81BD8ABAC00A03843 /* Frameworks */,
+				3983B3F91BD8ABAC00A03843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3983B3FD1BD8ABAC00A03843 /* PBXTargetDependency */,
+			);
+			name = MeetisanAppUITests;
+			productName = MeetisanAppUITests;
+			productReference = 3983B3FB1BD8ABAC00A03843 /* MeetisanAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3983B3CF1BD8ABAB00A03843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yj;
+				TargetAttributes = {
+					3983B3D61BD8ABAB00A03843 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3983B3EF1BD8ABAC00A03843 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3983B3D61BD8ABAB00A03843;
+					};
+					3983B3FA1BD8ABAC00A03843 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3983B3D61BD8ABAB00A03843;
+					};
+				};
+			};
+			buildConfigurationList = 3983B3D21BD8ABAB00A03843 /* Build configuration list for PBXProject "MeetisanApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3983B3CE1BD8ABAB00A03843;
+			productRefGroup = 3983B3D81BD8ABAB00A03843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3983B3D61BD8ABAB00A03843 /* MeetisanApp */,
+				3983B3EF1BD8ABAC00A03843 /* MeetisanAppTests */,
+				3983B3FA1BD8ABAC00A03843 /* MeetisanAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3983B3D51BD8ABAB00A03843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983B3EA1BD8ABAC00A03843 /* LaunchScreen.storyboard in Resources */,
+				39708C831BDA5744007CAC2F /* Assets.xcassets in Resources */,
+				3983B3E51BD8ABAC00A03843 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983B3EE1BD8ABAC00A03843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983B3F91BD8ABAC00A03843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3983B3D31BD8ABAB00A03843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983B3DB1BD8ABAC00A03843 /* AppDelegate.swift in Sources */,
+				3983B3DE1BD8ABAC00A03843 /* MeetisanApp.xcdatamodeld in Sources */,
+				3983B3E01BD8ABAC00A03843 /* MasterViewController.swift in Sources */,
+				3983B3E21BD8ABAC00A03843 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983B3EC1BD8ABAC00A03843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983B3F51BD8ABAC00A03843 /* MeetisanAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3983B3F71BD8ABAC00A03843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983B4001BD8ABAC00A03843 /* MeetisanAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3983B3F21BD8ABAC00A03843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3983B3D61BD8ABAB00A03843 /* MeetisanApp */;
+			targetProxy = 3983B3F11BD8ABAC00A03843 /* PBXContainerItemProxy */;
+		};
+		3983B3FD1BD8ABAC00A03843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3983B3D61BD8ABAB00A03843 /* MeetisanApp */;
+			targetProxy = 3983B3FC1BD8ABAC00A03843 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3983B3E31BD8ABAC00A03843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3983B3E41BD8ABAC00A03843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3983B3E81BD8ABAC00A03843 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3983B3E91BD8ABAC00A03843 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3983B4021BD8ABAC00A03843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3983B4031BD8ABAC00A03843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3983B4051BD8ABAC00A03843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MeetisanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meetisan.MeetisanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3983B4061BD8ABAC00A03843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MeetisanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meetisan.MeetisanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3983B4081BD8ABAC00A03843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetisanAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meetisan.MeetisanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetisanApp.app/MeetisanApp";
+			};
+			name = Debug;
+		};
+		3983B4091BD8ABAC00A03843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetisanAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meetisan.MeetisanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetisanApp.app/MeetisanApp";
+			};
+			name = Release;
+		};
+		3983B40B1BD8ABAC00A03843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeetisanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meetisan.MeetisanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeetisanApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3983B40C1BD8ABAC00A03843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeetisanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meetisan.MeetisanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeetisanApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3983B3D21BD8ABAB00A03843 /* Build configuration list for PBXProject "MeetisanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983B4021BD8ABAC00A03843 /* Debug */,
+				3983B4031BD8ABAC00A03843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3983B4041BD8ABAC00A03843 /* Build configuration list for PBXNativeTarget "MeetisanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983B4051BD8ABAC00A03843 /* Debug */,
+				3983B4061BD8ABAC00A03843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3983B4071BD8ABAC00A03843 /* Build configuration list for PBXNativeTarget "MeetisanAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983B4081BD8ABAC00A03843 /* Debug */,
+				3983B4091BD8ABAC00A03843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3983B40A1BD8ABAC00A03843 /* Build configuration list for PBXNativeTarget "MeetisanAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983B40B1BD8ABAC00A03843 /* Debug */,
+				3983B40C1BD8ABAC00A03843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3983B3DC1BD8ABAC00A03843 /* MeetisanApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3983B3DD1BD8ABAC00A03843 /* MeetisanApp.xcdatamodel */,
+			);
+			currentVersion = 3983B3DD1BD8ABAC00A03843 /* MeetisanApp.xcdatamodel */;
+			path = MeetisanApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3983B3CF1BD8ABAB00A03843 /* Project object */;
+}
